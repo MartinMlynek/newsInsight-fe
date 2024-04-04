@@ -2,7 +2,7 @@ import axios from 'axios';
 import { MessageWithDocs } from '../types/MessageWithDocs';
 import { Question } from '../types/Question';
 
-const URL = 'http://localhost:8080/';
+const URL = 'https://newsinsight.azurewebsites.net/';
 
 interface ErrorResponse {
 	errorMessage: string;
